@@ -1,0 +1,28 @@
+# Sensitive files
+backend/.env
+*.pem
+
+# Build outputs
+mobile/build/
+backend/__pycache__/
+*.tar
+*.tar.gz
+
+# IDE files
+.vscode/
+.idea/
+
+# Python virtual environments
+backend/venv/
+
+# Flutter-specific files
+mobile/.flutter-plugins
+mobile/.flutter-plugins-dependencies
+mobile/.dart_tool/
+
+# Logs
+backend/r3al3r.log
+/var/log/mongodb/mongod.log
+
+# macOS metadata
+.DS_Store
