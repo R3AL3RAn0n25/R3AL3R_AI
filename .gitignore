@@ -1,6 +1,11 @@
 # Sensitive files
 backend/.env
-*.pem
+*.pem  
+MONGO_URI=mongodb+srv://r3al3ran0n25::0En4HoszIP2OveBF@cluster0.mongodb.net/r3al3r?retryWrites=true&w=majority
+SOUL_KEY_HASH=your_soul_key_hash_here
+ALERT_EMAIL=your_alert_email@gmail.com
+ALERT_PASSWORD=your_email_password
+ALERT_RECIPIENT=admin@r3al3r.ai
 
 # Build outputs
 mobile/build/
